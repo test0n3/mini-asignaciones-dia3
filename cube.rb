@@ -5,29 +5,11 @@
 	# get_side = a function to return side
     # set_side = a function accepting an int; set side to that int
 system "clear"
-# class Cube
-#   attr_accessor :get_side, :set_side
-
-#   def side=(s)
-#     @side = s
-#   end
-
-#   def get_side
-#     @side
-#   end
-
-#   def set_side
-#     @side = s
-#   end
-# end
 
 class Cube
-    # attr_accessor :get_side, :set_side
-    # attr_writer :set_side
-    # attr_reader :get_side
 
-  def set_side(s = 0)        
-    @side = s
+  def set_side(side = 0)        
+    @side = side
   end
   
   def get_side
