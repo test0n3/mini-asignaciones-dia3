@@ -8,7 +8,7 @@ system "clear"
 
 class Cube
 
-  def set_side(side = 0)        
+  def set_side(side = 0)
     @side = side
   end
   
